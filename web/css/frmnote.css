@@ -1,0 +1,53 @@
+@import "main.css";
+
+#txtNote
+{
+    width: 253px;
+    height: 65px;
+}
+
+.container
+{
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 350px;
+    text-align: right;
+}
+
+#lblNote
+{
+    text-align: left;
+    display: inline-block;
+    width: 253px;
+}
+
+input[type=text]
+{
+    width: 191px;
+}
+
+.btnRemove
+{
+    text-align: left;
+    margin-left: 200px;
+}
+
+.btnSubmit
+{
+    text-align: left;
+    margin-left: 155px;
+}
+
+#lblAttachment, #lblAttach
+{
+    position: relative;
+    right: 202px;
+}
+
+#valAttachment, input[type="file"]
+{
+    position: absolute;
+    left: 200px;
+    text-align: left;
+}
+
